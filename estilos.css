@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 1.8em;
+}
+
+/* Main Sections */
+main section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #0066cc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Lists */
+ul, ol {
+  text-align: left;
+  margin: 0 auto 20px auto;
+  max-width: 800px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Figures */
+figure {
+  margin: 20px auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer ol {
+  padding-left: 20px;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
